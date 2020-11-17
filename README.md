@@ -37,21 +37,21 @@ Automate the following scenario using protractor:
 In the README file of the repository we want to see also the following sections:
 
 1. ***Description*** Describes of how to run the automation test
-- Ran the test by using the "protractor config.js" command.
++ Ran the test by using the "protractor config.js" command.
 
 2. ***Explanation*** Describes the choice made in the solution
-- Decided to split the script into 4 tests for better readability, management, easier debugging: 
-    *accessing the application 
-    *authentication 
-    *testing folder creation 
-    *testing folder name uniqueness
-- Declared page objectes in a separte file for easier tracking.
-- Created a "createFolder" function so that I don't have to duplicate code in my tests.
-- Tried to use id locators whenever possible since they are the most efficient type of element locators.  
++ Decided to split the script into 4 tests for better readability, management, easier debugging: 
+    + accessing the application 
+    + authentication 
+    + testing folder creation 
+    + testing folder name uniqueness
++ Declared page objectes in a separte file for easier tracking.
++ Created a "createFolder" function so that I don't have to duplicate code in my tests.
++ Tried to use id locators whenever possible since they are the most efficient type of element locators.  
 
 3. ***Prerequisites*** List here what/if anything needs to be installed
-- First of all we need to run "npm install" to download all the dependencies used by the project.
-- Side note: my firewall was very restrictive so the WebDriver could not contact the Selenium server.
++ First of all we need to run "npm install" to download all the dependencies used by the project.
++ Side note: my firewall was very restrictive so the WebDriver could not contact the Selenium server.
   Solved this by adding a config paramater in the conf.js file (directConnect: true). This way the test script communicates directly with the browser driver.
 
 You can send the link to your fork at mario.romano@alfresco.com. Feel free to attach also your cv and a link to your linkedin profile.
